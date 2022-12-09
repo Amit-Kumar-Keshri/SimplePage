@@ -130,3 +130,16 @@ hr {
 button.collapsed #arrowIcon{
     transform: rotate(0deg) !important;
 }
+
+.reveal{
+  position: relative;
+  /* transform: scale(1.1); */
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
